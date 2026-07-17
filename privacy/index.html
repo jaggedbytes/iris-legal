@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Iris Privacy Policy</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <main>
+    <p class="brand"><a href="../">Iris</a></p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: July 17, 2026</p>
+
+    <p>
+      Iris is a phone-first AI companion demo operated by Jagged Bytes.
+      This policy explains what information the Iris demo processes when you use
+      voice calls, the operator or trusted-contact dashboard, and approval-gated SMS.
+    </p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li>Phone numbers used to place Iris calls and to send check-in SMS through Twilio</li>
+      <li>Display names and relationships for enrolled trusted contacts</li>
+      <li>Dashboard authentication credentials or tokens you configure for access control</li>
+      <li>Consented call summaries and user-stated memories when summary retention is enabled</li>
+      <li>Operational records needed to send and audit SMS (for example outbox status), without storing raw call transcripts in those records</li>
+    </ul>
+
+    <h2>What we do not store</h2>
+    <ul>
+      <li>Call audio recordings</li>
+      <li>Raw phone transcripts as durable database content (transcript text is held in memory only for consented summary extraction after a call, then discarded)</li>
+      <li>Shield scam-assessment input, red-flag labels, risk scores, or scenario details in durable storage or in SMS content</li>
+    </ul>
+
+    <h2>How SMS works</h2>
+    <p>
+      Trusted contacts are enrolled by the Iris account holder or an authorized operator
+      in the Iris dashboard, where the contact’s name and mobile number are provided for
+      care-related check-in messages. Before Iris sends an SMS, the person speaking with
+      Iris must clearly approve the recipient and message on a live phone call
+      (or approve Iris’s fixed Shield check-in alert text).
+    </p>
+    <p>
+      Recipients may reply <strong>STOP</strong> to opt out and <strong>HELP</strong> for help.
+      Message frequency varies. Message and data rates may apply.
+    </p>
+
+    <h2>How we use information</h2>
+    <ul>
+      <li>To place and operate Iris voice calls</li>
+      <li>To send approval-gated Bridge or Shield check-in messages to trusted contacts</li>
+      <li>To show a privacy-preserving dashboard timeline and consented call recap</li>
+      <li>To maintain required operational audit and SMS delivery records</li>
+    </ul>
+
+    <h2>Processors</h2>
+    <p>
+      We use Twilio for voice and SMS delivery and OpenAI for live conversation and
+      ephemeral safety assessment. Those providers process data under their own terms
+      and privacy policies.
+    </p>
+
+    <h2>Retention</h2>
+    <p>
+      Consented summaries and memories are retained while the demo account remains active
+      and consent remains granted. SMS outbox and related operational records are retained
+      as needed to operate and troubleshoot message delivery. You may contact us to request
+      deletion of demo account data where feasible.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy: <a href="mailto:hello@jaggedbytes.com">hello@jaggedbytes.com</a>
+    </p>
+
+    <p class="nav"><a href="../terms/">Terms of Service</a> · <a href="../">Home</a></p>
+  </main>
+</body>
+</html>
