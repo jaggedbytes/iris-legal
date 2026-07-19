@@ -10,7 +10,7 @@
   <main>
     <p class="brand"><a href="../">Iris</a></p>
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: July 17, 2026</p>
+    <p class="meta">Last updated: July 19, 2026</p>
 
     <p>
       Iris is a phone-first AI companion demo operated by Jagged Bytes, Jacky Lazarov.
@@ -36,15 +36,21 @@
 
     <h2>How SMS works</h2>
     <p>
-      Trusted contacts are enrolled by the Iris account holder or an authorized operator
-      in the Iris dashboard, where the contact’s name and mobile number are provided for
-      care-related check-in messages. Before Iris sends an SMS, the person speaking with
-      Iris must clearly approve the recipient and message on a live phone call
-      (or approve Iris’s fixed Shield check-in alert text).
+      An Iris account holder or authorized operator drafts a trusted contact’s name and
+      mobile number in the Iris dashboard and creates a one-time SMS opt-in invitation.
+      The trusted contact opts in on a hosted Iris web form (path <code>/opt-in</code>) by
+      entering that invited mobile number and checking a disclosure such as:
+      “I agree to receive Iris care check-in and Shield alert texts for [Person].
+      Message frequency varies. Msg &amp; data rates may apply. Reply HELP for help.
+      Reply STOP to opt out.” The form also shows the HELP reply text and links to this
+      Privacy Policy and the Terms of Service. Submitting the form records SMS consent and
+      may send a confirmation text.
     </p>
     <p>
-      Recipients may reply <strong>STOP</strong> to opt out and <strong>HELP</strong> for help.
-      Message frequency varies. Message and data rates may apply.
+      Separately, each Bridge check-in SMS or fixed Shield check-in alert is sent only after
+      the person speaking with Iris clearly approves the recipient and message content on a
+      live phone call. Recipients may reply <strong>STOP</strong> to opt out and
+      <strong>HELP</strong> for help. Message frequency varies. Message and data rates may apply.
     </p>
 
     <h2>How we use information</h2>
