@@ -9,6 +9,7 @@ After GitHub Pages is enabled on `main` (root):
 - https://jaggedbytes.github.io/iris-legal/
 - https://jaggedbytes.github.io/iris-legal/privacy/
 - https://jaggedbytes.github.io/iris-legal/terms/
+- https://jaggedbytes.github.io/iris-legal/assets/opt-in-sample.png (care text opt-in sample)
 
 ## Enable GitHub Pages
 
